@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://www.mrodeghiero.com/</title>
+  <link>https://www.mrodeghiero.com/</link>
+
+<item>
+     <link>https://www.mrodeghiero.com/</link>
+     <title>[MR] Mário Rodeghiero - Front-end developer</title>
+     <description>Blog about Web Development.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.mrodeghiero.com/about.html</link>
+     <title>[MR] Mário Rodeghiero - About Me</title>
+     <description>Front End Developer in love with ReactJS, Javascript, learn and sharing knowledge and I believe we would all be better off professionally if we focus on contributing open source, sharing knowledge and learning from each other.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.mrodeghiero.com/array-find-index-ptbr.html</link>
+     <title>Array.find( ) e Array.findIndex( )</title>
+     <description>Array.find( ) e Array.findIndex( )</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.mrodeghiero.com/gist-interview.html</link>
+     <title>ReactJS Gist Interview</title>
+     <description>ReactJS Gist Interview</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.mrodeghiero.com/sass.html</link>
+     <title>SASS</title>
+     <description>Improving your CSS with SASS</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.mrodeghiero.com/json-server.html</link>
+     <title>How to use jSON Server with ReactJS</title>
+     <description>How to use jSON Server with ReactJS</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.mrodeghiero.com/HtmlWebpackPlugin.html</link>
+     <title>Generating multiple HTML files with HtmlWebpackPlugin</title>
+     <description>Generating multiple HTML files with HtmlWebpackPlugin</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.mrodeghiero.com/sass-react.html</link>
+     <title>Sass e React.js</title>
+     <description>Sass e React.js</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.mrodeghiero.com/spread-operator.html</link>
+     <title>Spread operator (...)</title>
+     <description>Spread operator (...)</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.mrodeghiero.com/chart-js.html</link>
+     <title>Gráficos com chartjs</title>
+     <description>Gráficos com chartjs</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.mrodeghiero.com/object-literal.html</link>
+     <title>Objeto de notação literal</title>
+     <description>Objeto de notação literal</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.mrodeghiero.com/copy-right.html</link>
+     <title>CopyRight Automatico</title>
+     <description>CopyRight Automatico</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.mrodeghiero.com/sass-ptbr.html</link>
+     <title>Trabalhando com SASS</title>
+     <description>Melhorando seu CSS com SASS</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
