@@ -1,256 +1,238 @@
-<!-- 
+<!--
   TODO
   - [] Change schema
  -->
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta itemprop="name" content="styled-components" />
+    <title>styled-components</title>
+    <!-- default-->
+    <meta name="description" content="css in js com styled-components" />
+    <link rel="canonical" href="https://mrodeghiero.com/styled-components" />
+    <!-- Social: Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@mariorodeghiero" />
+    <meta name="twitter:title" content="styled-components" />
+    <meta name="twitter:description" content="css in js com styled-components" />
+    <meta
+      property="twitter:image:src"
+      content="https://www.mrodeghiero.com/src/img/styled-components.png"
+    />
+    <!-- Social: Open Graph -->
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:url" content="https://mrodeghiero.com/styled-components" />
+    <meta property="og:title" content="styled-components" />
+    <meta property="og:image" content="https://www.mrodeghiero.com/src/img/styled-components.png" />
+    <meta property="og:site_name" content="Mario Rodeghiero - Front End Developer" />
+    <meta property="og:description" content="css in js com styled-components" />
+    <meta property="og:type" content="article" />
+    <meta property="article:author" content="Mário Antônio do Amaral Rodeghiero" />
+    <meta property="article:section" content="Tutorials" />
+    <meta
+      property="article:tag"
+      content="styled-components, Improving css, pre-processors, scss, variables, mixins, placeholder"
+    />
+    <meta itemprop="description" content="css in js com styled-components" />
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="../src/favicon/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="../src/favicon/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="../src/favicon/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="../src/favicon/apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="../src/favicon/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="../src/favicon/apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="../src/favicon/apple-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="../src/favicon/apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../src/favicon/apple-icon-180x180.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="../src/favicon/android-icon-192x192.png"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="../src/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="../src/favicon/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../src/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="./src/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="application-name" content="Mário Rodeghiero Blog" />
+    <meta name="msapplication-square70x70logo" content="smalltile.png" />
+    <meta name="msapplication-square150x150logo" content="mediumtile.png" />
+    <meta name="msapplication-wide310x150logo" content="widetile.png" />
+    <meta name="msapplication-square310x310logo" content="largetile.png" />
+    <link rel="stylesheet" href="../src/code.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107916783-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-<head>
+      gtag('config', 'UA-107916783-1');
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "TechArticle",
+        "name": "styled-components",
+        "headline": "css in js with styled-components",
+        "author": {
+          "@type": "Person",
+          "name": "Mario Antonio do Amaral Rodeghiero"
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.mrodeghiero.com/array-find-index-ptbr.html"
+        },
+        "editor": "Mario Antonio do Amaral Rodeghiero'",
+        "publisher": "Mario Rodeghiero - Front-end Developer Blog'",
+        "url": "http://www.mrodeghiero.com/styled-components",
+        "image": "https://www.mrodeghiero.com/src/img/blog-image.png",
+        "keywords": ["styled-components", "ES6", "css", "javascript", "reactjs"],
+        "datePublished": "2018-12-22",
+        "dateCreated": "2018-12-22",
+        "dateModified": "2018-12-22",
+        "articleSection": [ "styled-components", "ES6", "css", "javascript", "reactjs" ],
+        "articleBody": "Os métodos Array.find( ) e Array.findIndex( ) são novos métodos introduzidos no ES6, com eles pudemos facilmente verificar se existe determinada Dado ou um Index dentro de um Array."
+      }
+    </script>
+  </head>
 
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta itemprop="name" content="styled-components">
-  <title>styled-components</title>
-  <!-- default-->
-  <meta name="description" content="css in js com styled-components">
-  <!-- Social: Twitter -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@mariorodeghiero">
-  <meta name="twitter:title" content="styled-components">
-  <meta name="twitter:description" content="css in js com styled-components">
-  <meta property="twitter:image:src" content="https://www.mrodeghiero.com/src/img/styled-components.png">
-  <!-- Social: Open Graph -->
-  <meta property="og:locale" content="en_US">
-  <meta property="og:url" content="https://www.mrodeghiero.com/styled-components.html">
-  <meta property="og:title" content="styled-components">
-  <meta property="og:image" content="https://www.mrodeghiero.com/src/img/styled-components.png">
-  <meta property="og:site_name" content="Mario Rodeghiero - Front End Developer">
-  <meta property="og:description" content="css in js com styled-components">
-  <meta property="og:type" content="article">
-  <meta property="article:author" content="Mário Antônio do Amaral Rodeghiero">
-  <meta property="article:section" content="Tutorials">
-  <meta property="article:tag" content="styled-components, Improving css, pre-processors, scss, variables, mixins, placeholder">
-  <meta itemprop="description" content="css in js com styled-components">
-  <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="57x57" href="../src/favicon/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="../src/favicon/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="../src/favicon/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="../src/favicon/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="../src/favicon/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="../src/favicon/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="../src/favicon/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="../src/favicon/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="../src/favicon/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="../src/favicon/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="../src/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="../src/favicon/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../src/favicon/favicon-16x16.png">
-  <link rel="manifest" href="./src/favicon/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-  <meta name="application-name" content="Mário Rodeghiero Blog">
-  <meta name="msapplication-square70x70logo" content="smalltile.png">
-  <meta name="msapplication-square150x150logo" content="mediumtile.png">
-  <meta name="msapplication-wide310x150logo" content="widetile.png">
-  <meta name="msapplication-square310x310logo" content="largetile.png">
-  <link rel="stylesheet" href="../src/code.css" />
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107916783-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-107916783-1');
-  </script>
-
-</head>
-
-<body>
-  <div class="container-flag">
-    <p>Read in:</p>
-    <a href="./styled-components-ptbr.html" target="_blank">
-      <img class="flag" src="../src/img/flag-ptbr.png" alt="PTBR" title="Leia em português">
-    </a>
-    <a>
-      <img class="flag" src="../src/img/flag-en.png" alt="EN" title="Read in English">
-    </a>
-  </div>
-
-  <article>
-    <div class="author">
-      <a href="https://github.com/MarioRodeghiero">
-        <h5>
-          <img src="../src/img/github-logo.png" alt="icone github"> Author: MárioRodeghiero
-        </h5>
-      </a>
-      <h5 class="publish-date">Date: 09/25/2018</h5>
+  <body>
+    <div class="container-flag">
+      <p>Read in:</p>
+      <a> <img class="flag" src="../src/img/flag-en.png" alt="EN" title="Read in English" /> </a>
     </div>
 
-    <div>
-      <h1 class="title">styled-components</h1>
-      <h4>"css in js com styled-components"</h4>
-      <p>
-        <a class="link" href="https://www.styled-components.com//" target="_blank">styled-components</a> é uma
-        biblioteca com mais de 2 milhões de downloads que nos possibilita usar css no javascript. O styled-components
-        nos possibilita algumas funcionalidades que nos auxiliam no processo de densenvolvimento como: compatibilidade
-        de browsers, css individual para cada component, não há necessidade de importação de arquivos.css ... você pode
-        conferir mais em <a class="link" href="https://www.styled-components.com//" target="_blank">styled-components</a>
-        <br />
-        Agora vamos ver como funcina o styled-components com ReactJS.
-      </p>
-    </div>
+    <article>
+      <div class="author">
+        <a href="https://github.com/MarioRodeghiero" target="_blank">
+          <h5>
+            <img src="../src/img/github-logo.png" alt="icone github" /> Author: MárioRodeghiero
+          </h5>
+        </a>
+        <h5 class="publish-date">Date: 12/22/2018</h5>
+      </div>
 
-    <div>
-      <h2 class="sub-title">Install</h2>
-      <p>
-        Nos exemplos a seguir será usado o "creat-react-app" e "styled-components" por tanto se faz necessario
-        intalar-los para darmos continuidade.
-      </p>
-      <ul>
-        <li>
-          <b>creact-react-app</b>
-          <p class="command-line">$ npx create-react-app my-app</p>
-        </li>
-        <br>
-        <li>
-          <b>styled-components</b>
-          <p class="command-line">$ npm install --save styled-components</p>
-        </li>
-      </ul>
-    </div>
+      <div>
+        <h1 class="title">styled-components</h1>
+        <h4>"css in js with styled-components"</h4>
+        <p>
+          <a class="link" href="https://www.styled-components.com//" target="_blank"
+            >styled-components</a
+          >
+          is a library with more than 2 million downloads that allows us to use css in javascript.
+          Styled-components allows us some features that help us in the development process such as:
+          browser compatibility, individual css for each component, no need to import .css files ...
+          you can check more in
+          <a class="link" href="https://www.styled-components.com//" target="_blank"
+            >styled-components</a
+          >
+          <br />
+          Now let's see how the styled-components work with ReactJS.
+        </p>
+      </div>
 
-    <div>
-      <h2 class="sub-title">Exemplo 1</h2>
-      <p>
-        Neste exemplo vamos criar um component chamado "Button.js" e chamamos ele no "App.js" para renderizarmos. Não
-        entrarei nos meritos de como se usa um componente em "react.js", caso você queira aprender mais sobre react.js,
-        tenho alguns artigos que aborda os passos.
-        Nosso componente terá a seguinte estrutura:
-      </p>
-      <pre>
+      <div>
+        <h2 class="sub-title">Install</h2>
+        <p>
+          In the following examples will be used the "create-react-app" and "styled-components"
+          therefore it is necessary to install them to give continuity.
+        </p>
+        <b>creact-react-app</b>
+        <p class="command-line">$ npx create-react-app my-app</p>
+        <b>styled-components</b>
+        <p class="command-line">$ npm install --save styled-components</p>
+      </div>
+
+      <div>
+        <h2 class="sub-title">Exemplo 1</h2>
+        <p>
+          In this example we will create a component called "Button.js" and call it in "App.js" to
+          render. I will not go into the merits of how to use a component in "react.js", if you want
+          to learn more about react.js, I have some articles that addresses the steps. Our component
+          will have the following structure:
+        </p>
+        <pre>
         <code class="language-javascript">
-    import React, { Component } from 'react';
-    import styled from 'styled-components';
+          import React, { Component } from 'react';
+          import styled from 'styled-components';
 
-    const Button1 = styled.button`
-    padding: 10px;
-    width: 130px;
-    border-radius: 40px;
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    margin: 0 auto;
-    margin-top: -50px;
-    margin-left: -50px;
-    :focus {
-    box-shadow: 0 0 0 0;
-    border: 0 none;
-    outline: 0;
-    }
-    :hover {
-    opacity: 0.6;
-    }
-    `;
+          const StyleButton = styled.button`
+            background: palevioletred;
+            color: white;
+            font-size: 1em;
+            margin: 1em;
+            padding: 0.25em 1em;
+            border: 2px solid palevioletred;
+            border-radius: 3px;
+          `;
 
-    class Home extends Component {
-    render() {
-    return (
-    div>
-      <Button1>Start</Button1>
-    </div>
-    );
-    }
-    }
+          class Button extends Component {
+            render() {
+            return (
+              &lt;div&gt;
+              &lt;StyleButton&gt;Button&lt;/StyleButton&gt;
+              &lt;/div&gt;
+            )}
+          }
 
-    export default Home;
+          export default Button;
        </code>
      </pre>
-    </div>
+        <p>
+          That sounds magical right? I do not know about you but when I first saw it was 😱😍, today
+          I'm fascinated to use "CSS in JS". Styled-components uses "ES6 template literals", so we
+          can store a function inside the varialvel and use it to present our Button.
+        </p>
+        <img
+          class="screenShot"
+          src="../src/img/ScreenShot-StyleButton.png"
+          alt="screen-Shot App.js"
+        />
+      </div>
 
-    <div>
-      <h2 class="sub-title">Conclusion</h2>
-      <p>
-        These are just a few of the many features that styled-components provides to streamline the development
-        process, leaving our
-        code more
-        performative. It is worth checking the documentation directly on the
-        <a class="link" href="https://www.styled-components.com//documentation/file.styled-components_REFERENCE.html"
-          target="_blank">styled-components</a>
-        and
-        know a little more about the power it offers.
-        <br>
-        <br>Thanks!!
-      </p>
-    </div>
-  </article>
+      <div>
+        <h2 class="sub-title">Conclusion</h2>
+        <p>
+          To talk more about styled-components like (props, theme, injectglobal, mixins function,
+          etc ...), I will split into some posts, so just follow the blog. <br />
+          These are just a few of the many features that styled-components provides to streamline
+          the development process, leaving our code more performative. It is worth checking the
+          documentation directly on the
+          <a
+            class="link"
+            href="https://www.styled-components.com//documentation/file.styled-components_REFERENCE.html"
+            target="_blank"
+            >styled-components</a
+          >
+          and know a little more about the power it offers. <br />
+          <br />Thanks!!
+        </p>
+      </div>
+    </article>
 
-  <!--Disqus comentarios-->
-  <div class="disqus" id="disqus_thread"></div>
-  <script>
-    (function () {
-      var d = document,
-        s = d.createElement('script');
-      s.src = 'https://helponedev.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-    })();
-  </script>
-  <script type="application/ld+json">
-  {
-    "@context" : "http://schema.org",
-    "@type" : "TechArticle",
-    "name" : "css in js com styled-components",
-    "headline": "But why use a preprocessor? In this article, we&#39;ll look at some of the features which styled-components offers",
-    "author" : {
-      "@type" : "Person",
-      "name" : "Mário Rodeghiero"
-    },
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://www.mrodeghiero.com/styled-components.html"
-    },
-    "editor": "Mário Antônio A. Rodeghiero'",
-    "publisher": "Mário Rodeghiero - Front-end Developer Blog'",
-    "url": "http://www.mrodeghiero.com",
-    "image": "https://www.mrodeghiero.com/src/img/styled-components.png",
-    "keywords": "css styled-components development",
-    "datePublished" : "2018-09-25",
-    "dateCreated": "2018-09-25",
-    "dateModified": "2018-09-25",
-    "articleSection" : [ "CSS", "styled-components" ],
-    "articleBody" : "styled-components is a preprocessor, such as the Less and the Stylus. Particularly I prefer to use styled-components, so it&#39;s about he we are going to talk about in this article. But why use a preprocessor? In this article, we&#39;ll look at some of the features which styled-components offers to solve some problems that in CSS is not possible."
-  }
-  </script>
-  <script type="application/ld+json">
-    { "@context": "http://schema.org", 
-     "@type": "BlogPosting",
-     "headline": "14 Ways Json Can Improve Your SEO",
-     "alternativeHeadline": "and the women who love them",
-     "image": "http://example.com/image.jpg",
-     "award": "Best article ever written",
-     "editor": "John Doe", 
-     "genre": "search engine optimization", 
-     "keywords": "seo sales b2b", 
-     "wordcount": "1120",
-     "publisher": "Book Publisher Inc",
-     "url": "http://www.example.com",
-     "datePublished": "2015-09-20",
-     "dateCreated": "2015-09-20",
-     "dateModified": "2015-09-20",
-     "description": "We love to do stuff to help people and stuff",
-     "articleBody": "You can paste your entire post in here, and yes it can get really really long.",
-       "author": {
-        "@type": "Person",
-        "name": "Steve"
-      }
-     }
+    <!--Disqus comentarios-->
+    <div class="disqus" id="disqus_thread"></div>
+    <script>
+      (function() {
+        var d = document,
+          s = d.createElement('script');
+        s.src = 'https://helponedev.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
     </script>
-  <noscript>Please enable JavaScript to view the
-    <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-  </noscript>
-</body>
-
+    <noscript
+      >Please enable JavaScript to view the
+      <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript>
+  </body>
 </html>

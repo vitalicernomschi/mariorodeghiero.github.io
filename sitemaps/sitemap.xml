@@ -9,67 +9,72 @@
 
 <url>
   <loc>https://www.mrodeghiero.com/</loc>
-  <lastmod>2018-12-12T13:28:20+00:00</lastmod>
+  <lastmod>2018-12-22T14:15:58+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.mrodeghiero.com/about.html</loc>
-  <lastmod>2018-12-20T13:45:51+00:00</lastmod>
+  <lastmod>2018-12-22T14:15:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mrodeghiero.com/styled-components.html</loc>
+  <lastmod>2018-12-22T14:30:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.mrodeghiero.com/array-find-index-ptbr.html</loc>
-  <lastmod>2018-12-12T13:28:18+00:00</lastmod>
+  <lastmod>2018-12-22T14:30:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.mrodeghiero.com/gist-interview.html</loc>
-  <lastmod>2018-12-12T13:28:20+00:00</lastmod>
+  <lastmod>2018-12-22T14:15:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.mrodeghiero.com/sass.html</loc>
-  <lastmod>2018-12-20T13:47:37+00:00</lastmod>
+  <lastmod>2018-12-22T14:16:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.mrodeghiero.com/json-server.html</loc>
-  <lastmod>2018-12-12T13:28:21+00:00</lastmod>
+  <lastmod>2018-12-22T14:15:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.mrodeghiero.com/HtmlWebpackPlugin.html</loc>
-  <lastmod>2018-12-12T13:28:14+00:00</lastmod>
+  <lastmod>2018-12-22T14:15:54+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.mrodeghiero.com/sass-react.html</loc>
-  <lastmod>2018-12-12T13:28:22+00:00</lastmod>
+  <lastmod>2018-12-22T14:16:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.mrodeghiero.com/spread-operator.html</loc>
-  <lastmod>2018-12-12T13:28:23+00:00</lastmod>
+  <lastmod>2018-12-22T14:16:01+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.mrodeghiero.com/chart-js.html</loc>
-  <lastmod>2018-12-12T13:28:19+00:00</lastmod>
+  <lastmod>2018-12-22T14:15:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.mrodeghiero.com/object-literal.html</loc>
-  <lastmod>2018-12-12T13:28:21+00:00</lastmod>
+  <lastmod>2018-12-22T14:15:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.mrodeghiero.com/copy-right.html</loc>
-  <lastmod>2018-12-12T13:28:19+00:00</lastmod>
+  <lastmod>2018-12-22T14:15:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.mrodeghiero.com/sass-ptbr.html</loc>
-  <lastmod>2018-12-20T13:47:37+00:00</lastmod>
+  <lastmod>2018-12-22T14:15:59+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 

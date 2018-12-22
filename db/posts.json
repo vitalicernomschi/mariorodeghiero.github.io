@@ -1,5 +1,11 @@
 [
   {
+    "title": "styled-components",
+    "tags": ["JS", "CSS"],
+    "url": "../styled-components.html",
+    "date": "Dec 22, 2018"
+  },
+  {
     "title": "Array.find( ) e Array.findIndex( )",
     "tags": ["JS"],
     "url": "../array-find-index-ptbr.html",
